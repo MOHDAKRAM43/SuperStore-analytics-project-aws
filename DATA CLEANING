@@ -1,1 +1,32 @@
+-- PROFITABILITY BY region
 
+SELECT
+     region,
+     ROUND(SUM(profit),2)AS total_profit
+FROM "db_hellosql"."orders"
+GROUP BY region
+ORDER BY total_profit DESC;
+
+-- AVERAGE ORDER VALUE (AOV)
+SELECT 
+    SUM(sales) / COUNT(DISTINCT "order id") AS avg_order_value
+FROM "db_hellosql"."orders";
+
+-- MOST PROFITABLE PRODUCT BY CATEGORIES
+
+SELECT 
+      category,
+      ROUND(SUM(profit),2) AS total_profit
+FROM "db_hellosql"."orders"
+GROUP BY category
+ORDER BY total_profit DESC;
+
+-- top unique customers
+
+SELECT COUNT(DISTINCT"customer id") AS total_customers
+FROM "db_hellosql"."orders";
+
+-- total unique customers
+
+SELECT COUNT(distinct"customer id")AS total_customers
+FROM "db_hellosql"."orders";

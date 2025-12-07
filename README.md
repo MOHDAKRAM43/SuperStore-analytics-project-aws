@@ -78,7 +78,8 @@ Order trends
 
 superstoreanalysis/
 ├── queries/
-└── README.md
+└── README.md/
+├──IMAGES
 
 🧠 SQL Queries Included
 1️⃣ Top 5 Products by Total Sales

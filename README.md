@@ -1,7 +1,7 @@
 # SuperStore-analytics-project-aws
 📊 Sales Analytics Project Using SQL on AWS (S3 • Glue • Athena • QuickSight)
 
-This project showcases an end-to-end data analytics pipeline on AWS, where I used IAM, S3, AWS Glue, Athena, and QuickSight to perform sales analysis on the db_hellosql.orders dataset.
+This project showcases an end-to-end data analytics pipeline on AWS, where I used IAM, S3, AWS Glue, Athena, and QuickSight to perform sales analysis on the sUPERSTORE (KAGGLE) dataset.
 The repository contains SQL scripts, transformation logic, and documentation of the analytics performed.
 
 🚀 Project Overview
@@ -83,26 +83,8 @@ superstoreanalysis/
 
 🧠 SQL Queries Included
 1️⃣ Top 5 Products by Total Sales
-SELECT product, SUM(sales) AS total_sales
-FROM db_hellosql.orders
-GROUP BY product
-ORDER BY total_sales DESC
-LIMIT 5;
-
 2️⃣ Average Order Value (AOV)
-SELECT 
-    SUM(sales) / COUNT(DISTINCT "order id") AS avg_order_value
-FROM db_hellosql.orders;
-
 3️⃣ Sales Summary by Product
-SELECT 
-    product,
-    SUM(sales) AS total_sales,
-    COUNT(DISTINCT "order id") AS total_orders,
-    AVG(sales) AS avg_sales_per_order
-FROM db_hellosql.orders
-GROUP BY product
-ORDER BY total_sales DESC;
 
 🎯 What This Project Demonstrates
 

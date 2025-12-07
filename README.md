@@ -75,6 +75,7 @@ Average order value
 Order trends
 
 📂 Repository Structure
+
 superstoreanalysis/
 ├── queries/
 └── README.md

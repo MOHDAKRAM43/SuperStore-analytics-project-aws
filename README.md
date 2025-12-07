@@ -29,6 +29,7 @@ Product-level sales summary
 Query-based insights for dashboards
 
 🛠️ AWS Services Used
+
 **✔ AWS IAM**
 
 Created IAM roles and policies
@@ -75,7 +76,6 @@ Order trends
 
 📂 Repository Structure
 superstoreanalysis/
-│
 ├── queries/
 └── README.md
 

@@ -29,7 +29,7 @@ Product-level sales summary
 Query-based insights for dashboards
 
 🛠️ AWS Services Used
-✔ AWS IAM
+**✔ AWS IAM**
 
 Created IAM roles and policies
 
@@ -37,13 +37,13 @@ Managed secure access to S3, Glue, Athena and QuickSight
 
 Followed least-privilege access
 
-✔ Amazon S3
+**✔ Amazon S3**
 
 Used as the data lake to store raw and processed datasets
 
 Folder structure for organized analytics
 
-✔ AWS Glue
+**✔ AWS Glue**
 
 Built a Glue Crawler to automatically infer schema
 
@@ -51,7 +51,7 @@ Created Glue Data Catalog tables
 
 Enabled Athena to query the dataset
 
-✔ AWS Athena
+**✔ AWS Athena**
 
 Used for all SQL-based analytics
 
@@ -59,7 +59,7 @@ Performed transformations & calculations
 
 Ran analytical queries on datasets in S3
 
-✔ Amazon QuickSight
+**✔ Amazon QuickSight**
 
 Connected Athena as a data source
 
@@ -77,10 +77,6 @@ Order trends
 superstoreanalysis/
 │
 ├── queries/
-│   ├── top_products.sql
-│   ├── average_order_value.sql
-│   ├── sales_summary.sql
-│
 └── README.md
 
 🧠 SQL Queries Included

@@ -1,0 +1,4 @@
+-- top unique customers
+
+SELECT COUNT(DISTINCT"customer id") AS total_customers
+FROM "db_hellosql"."orders";

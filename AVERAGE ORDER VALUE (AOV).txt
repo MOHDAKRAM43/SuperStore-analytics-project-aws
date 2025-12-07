@@ -1,0 +1,4 @@
+-- AVERAGE ORDER VALUE (AOV)
+SELECT 
+    SUM(sales) / COUNT(DISTINCT "order id") AS avg_order_value
+FROM "db_hellosql"."orders";

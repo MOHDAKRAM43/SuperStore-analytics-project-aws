@@ -1,0 +1,8 @@
+-- MOST PROFITABLE PRODUCT BY CATEGORIES
+
+SELECT 
+      category,
+      ROUND(SUM(profit),2) AS total_profit
+FROM "db_hellosql"."orders"
+GROUP BY category
+ORDER BY total_profit DESC;

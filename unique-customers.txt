@@ -1,0 +1,4 @@
+-- total unique customers
+
+SELECT COUNT(distinct"customer id")AS total_customers
+FROM "db_hellosql"."orders";

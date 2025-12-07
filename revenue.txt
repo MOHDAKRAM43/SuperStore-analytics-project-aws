@@ -1,0 +1,4 @@
+-- total revenue 
+
+SELECT SUM(sales) AS total_revenue
+FROM "db_hellosql"."orders";
